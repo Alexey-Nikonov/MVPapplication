@@ -1,0 +1,18 @@
+c:\users\nikonov-nbook\documents\visual studio 2013\Projects\MVPapplication\MVPapplication\bin\Debug\MVPapplication.exe.config
+c:\users\nikonov-nbook\documents\visual studio 2013\Projects\MVPapplication\MVPapplication\bin\Debug\MVPapplication.exe
+c:\users\nikonov-nbook\documents\visual studio 2013\Projects\MVPapplication\MVPapplication\bin\Debug\MVPapplication.pdb
+c:\users\nikonov-nbook\documents\visual studio 2013\Projects\MVPapplication\MVPapplication\obj\Debug\MVPapplication.csprojResolveAssemblyReference.cache
+c:\users\nikonov-nbook\documents\visual studio 2013\Projects\MVPapplication\MVPapplication\obj\Debug\MVPapplication.Properties.Resources.resources
+c:\users\nikonov-nbook\documents\visual studio 2013\Projects\MVPapplication\MVPapplication\obj\Debug\MVPapplication.csproj.GenerateResource.Cache
+c:\users\nikonov-nbook\documents\visual studio 2013\Projects\MVPapplication\MVPapplication\obj\Debug\MVPapplication.exe
+c:\users\nikonov-nbook\documents\visual studio 2013\Projects\MVPapplication\MVPapplication\obj\Debug\MVPapplication.pdb
+C:\Users\Nikonov-NBook\documents\visual studio 2013\Projects\MVPapplication\MVPapplication\obj\Debug\MVPapplication.View.resources
+C:\GitHubWorkingDirectories\CSharp\MVPapplication\MVPapplication\bin\Debug\MVPapplication.exe.config
+C:\GitHubWorkingDirectories\CSharp\MVPapplication\MVPapplication\obj\Debug\MVPapplication.exe
+C:\GitHubWorkingDirectories\CSharp\MVPapplication\MVPapplication\obj\Debug\MVPapplication.pdb
+C:\GitHubWorkingDirectories\CSharp\MVPapplication\MVPapplication\bin\Debug\MVPapplication.exe
+C:\GitHubWorkingDirectories\CSharp\MVPapplication\MVPapplication\bin\Debug\MVPapplication.pdb
+C:\GitHubWorkingDirectories\CSharp\MVPapplication\MVPapplication\obj\Debug\MVPapplication.csprojResolveAssemblyReference.cache
+C:\GitHubWorkingDirectories\CSharp\MVPapplication\MVPapplication\obj\Debug\MVPapplication.Properties.Resources.resources
+C:\GitHubWorkingDirectories\CSharp\MVPapplication\MVPapplication\obj\Debug\MVPapplication.View.resources
+C:\GitHubWorkingDirectories\CSharp\MVPapplication\MVPapplication\obj\Debug\MVPapplication.csproj.GenerateResource.Cache

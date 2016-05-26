@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<question number="0">
+		<text>Начинаем работу?</text>
+		<answers>
+			<answer nextQuestion="1">Да</answer>
+			<answer nextQuestion="37">Нет</answer>
+		</answers>
+	</question>
+	<question number="1">
+		<text>Введите режим создания ПС</text>
+		<answers>
+			<answer nextQuestion="2">Программная система</answer>
+			<answer nextQuestion="2">Программное средство</answer>
+		</answers>
+	</question>
+	<question number="2">
+		<text>Введите режим подключения готовых модулей</text>
+        <answers>
+			<answer nextQuestion="3">Исходный код</answer>
+			<answer nextQuestion="3">Заугрузочный код</answer>
+			<answer nextQuestion="3">Сочетание загрузочного и исходного кода</answer>
+		</answers>
+	</question>
+	<question number="3">
+		<text>Введите основное руководство по созданию ПС</text>
+    	<answers>
+			<answer nextQuestion="4">ISO 12207</answer>
+			<answer nextQuestion="4">ГОСТ 19.102-77</answer>				
+		</answers>
+	</question>
+	<question number="4">
+		<text>Необходимо ли административное управление проектом?</text>
+    	<answers>
+			<answer nextQuestion="5">Да</answer>
+			<answer nextQuestion="12">Нет</answer>				
+		</answers>
+	</question>
+	<question number="5">
+		<text>Перейти к пунктам создания системы?</text>
+    	<answers>
+			<answer nextQuestion="6">Да</answer>
+			<answer nextQuestion="11">Нет</answer>				
+		</answers>
+	</question>
+	<!--Начало первого черного ящика (Диалог 1)-->
+	<question number="6">		
+		<text>Введите руководство по управлению по управлению проектом</text>
+    	<answers>
+			<answer nextQuestion="7">ISO 16326:1999</answer>
+			<answer nextQuestion="7">ГОСТ 12207-99</answer>				
+		</answers>
+	</question>
+	<question number="7">
+		<text>Выберите сферу использования системы</text>
+    	<answers>
+			<answer nextQuestion="8">Личная</answer>
+			<answer nextQuestion="8">Коммерческая</answer>
+			<answer nextQuestion="8">Техническая</answer>
+			<answer nextQuestion="8">Open Source</answer>
+		</answers>
+	</question>
+	<question number="8">
+		<text>Для каких целей будет использована система?</text>
+        <answers>
+			<answer nextQuestion="9">Научно-исследовательских</answer>
+			<answer nextQuestion="9">Учебно-образовательных</answer>
+			<answer nextQuestion="9">Инновационных</answer>
+			<answer nextQuestion="9">Инвестиционных</answer>
+		</answers>
+	</question>
+	<question number="9">
+		<text>Выберите степень сложности системы</text>
+    	<answers>
+			<answer nextQuestion="10">Стабильная</answer>
+			<answer nextQuestion="10">Изменяющаяся</answer>
+			<answer nextQuestion="10">Самогенерирующаяся</answer>
+		</answers>
+	</question>
+	<question number="10">
+		<text>Должна ли система обладать свойством внедрения в другие проекты?</text>
+    	<answers>
+			<answer nextQuestion="11">Да</answer>
+			<answer nextQuestion="11">Нет</answer>
+		</answers>
+	</question>
+	<question number="11">
+		<text>Завершить создание, выполнить проверку?</text>
+    	<answers>
+			<answer nextQuestion="12">Да</answer>
+			<answer nextQuestion="5">Нет</answer>
+		</answers>
+	</question>
+	<!--Конец первого черного ящика (Диалог 1)-->
+	<question number="12">
+		<text>Необходимо тестирование системы?</text>
+    	<answers>
+			<answer nextQuestion="13">Да</answer>
+			<answer nextQuestion="20">Нет</answer>
+		</answers>
+	</question>
+	<!--Начало второго черного ящика (Диалог 2)-->
+	<question number="13">
+		<text>Перейти к пунктам тестирования системы?</text>
+        <answers>
+			<answer nextQuestion="14">Да</answer>
+			<answer nextQuestion="19">Нет</answer>
+		</answers>
+	</question>
+	<question number="14">
+		<text>Введите руководство по тестированию</text>
+    	<answers>
+			<answer nextQuestion="15">ANSI/IEEE 1008-1986</answer>
+			<answer nextQuestion="15">ANSI/IEEE 1012-1986</answer>
+		</answers>
+	</question>
+	<question number="15">
+		<text>Какое тестирование выбрать?</text>
+    	<answers>
+			<answer nextQuestion="16">Блочное</answer>
+			<answer nextQuestion="16">Интеграционное</answer>
+			<answer nextQuestion="16">Системное</answer>
+		</answers>
+	</question>
+	<question number="16">
+		<text>Какие этапы должна пройти система?</text>
+    	<answers>
+			<answer nextQuestion="17">Этап стабильности</answer>
+			<answer nextQuestion="17">Этап надежности</answer>
+			<answer nextQuestion="17">Этап эргономики</answer>
+			<answer nextQuestion="17">Совокупность вышеперечисленных этапов</answer>
+		</answers>
+	</question>
+	<question number="17">
+		<text>Испытания на этапах подготовки к эксплуатации</text>
+    	<answers>
+			<answer nextQuestion="18">Тестирование процесса установки</answer>
+			<answer nextQuestion="18">Тестирование на различных конфигурациях</answer>
+			<answer nextQuestion="18">Приемочное тестирование</answer>
+		</answers>
+	</question>
+	<question number="18">
+		<text>Какое испытание выбрать на этапе сопровождения?</text>
+    	<answers>
+			<answer nextQuestion="19">Регрессионное</answer>
+			<answer nextQuestion="19">Предварительное</answer>				
+		</answers>
+	</question>
+	<question number="19">
+		<text>Завершить тестирование, выполнить проверку?</text>
+    	<answers>
+			<answer nextQuestion="20">Да</answer>
+			<answer nextQuestion="13">Нет</answer>
+		</answers>
+	</question>
+	<!--Конец второго черного ящика (Диалог 2)-->
+	<question number="20">
+		<text>Необходимо документирование системы?</text>
+    	<answers>
+			<answer nextQuestion="21">Да</answer>
+			<answer nextQuestion="28">Нет</answer>
+		</answers>
+	</question>
+	<!--Начало третьего черного ящика (Диалог 3)-->
+	<question number="21">
+		<text>Перейти к пунктам документирования системы?</text>
+    	<answers>
+			<answer nextQuestion="22">Да</answer>
+			<answer nextQuestion="27">Нет</answer>
+		</answers>
+	</question>
+	<question number="22">
+		<text>Введите основные руководства по документированию</text>
+    	<answers>
+			<answer nextQuestion="23">ГОСТ 19.105-78</answer>
+			<answer nextQuestion="23">ГОСТ 19.106-78</answer>
+			<answer nextQuestion="23">ISO 9294:1990</answer>
+			<answer nextQuestion="23">ISO 9127:1990</answer>
+		</answers>
+	</question>
+	<question number="23">
+		<text>Какое направление документации выбрать?</text>
+    	<answers>
+			<answer nextQuestion="24">Организационно-распорядительная документация</answer>
+			<answer nextQuestion="24">Плановая документация</answer>
+			<answer nextQuestion="24">Первичная учетная документация</answer>
+			<answer nextQuestion="24">Отчетно-статистическая</answer>
+			<answer nextQuestion="24">Документация по обслуживанию</answer>
+			<answer nextQuestion="24">Финансовая и расчетно-денежная документации</answer>
+			<answer nextQuestion="24">Ведомственная статистическая отчетность</answer>
+		</answers>
+	</question>
+	<question number="24">
+		<text>Выберите формат группировки документации</text>
+    	<answers>
+			<answer nextQuestion="25">По стадии разработки</answer>
+			<answer nextQuestion="25">По направлению работ</answer>
+			<answer nextQuestion="25">По виду материалов</answer>
+			<answer nextQuestion="25">По подсистемам</answer>
+		</answers>
+	</question>
+	<question number="25">
+		<text>Что должна включать документация?</text>
+    	<answers>
+			<answer nextQuestion="26">Описательную часть</answer>
+			<answer nextQuestion="26">Предметную часть</answer>
+			<answer nextQuestion="26">Совокупность вышеперечисленных частей</answer>
+		</answers>
+	</question>
+	<question number="26">
+		<text>Нужна ли подсветка синтаксиса программных частей?</text>
+    	<answers>
+			<answer nextQuestion="27">Да</answer>
+			<answer nextQuestion="27">Нет</answer>
+		</answers>
+	</question>
+	<question number="27">
+		<text>Завершить документирование, выполнить проверку?</text>
+    	<answers>
+			<answer nextQuestion="28">Да</answer>
+			<answer nextQuestion="21">Нет</answer>
+		</answers>
+	</question>
+	<!--Конец третьего черного ящика (Диалог 3)-->
+	<question number="28">
+		<text>Необходимо ли оценить стоимость и качество создаваемой ПС?</text>
+    	<answers>
+			<answer nextQuestion="29">Да</answer>
+			<answer nextQuestion="36">Нет</answer>
+		</answers>
+	</question>
+	<!--Начало четвертого черного ящика (Диалог 4)-->
+	<question number="29">
+		<text>Перейти к пунктам оценки программной системы?</text>
+    	<answers>
+			<answer nextQuestion="30">Да</answer>
+			<answer nextQuestion="35">Нет</answer>
+		</answers>
+	</question>
+	<question number="30">
+		<text>Введите основное руководство оценки качества и стоимости</text>
+    	<answers>
+			<answer nextQuestion="31">ISO 9126:1991</answer>
+			<answer nextQuestion="31">ISO 14598-1-6:1998-2000</answer>
+		</answers>
+	</question>
+	<question number="31">
+		<text>По каким критериям оценивать стоимость системы?</text>
+    	<answers>
+			<answer nextQuestion="32">Удовлетворение условиям ТЗ</answer>
+			<answer nextQuestion="32">Качественная разработка в установленные сроки</answer>
+			<answer nextQuestion="32">Доступ к исходному коду проекта</answer>
+			<answer nextQuestion="32">Непрерывная поддержка в ходе разработки</answer>
+			<answer nextQuestion="32">Непрерывная поддержка в ходе обслуживания</answer>
+			<answer nextQuestion="32">Все вышеперечисленные критерии</answer>
+		</answers>
+	</question>
+	<question number="32">
+		<text>По каким критериям оценивать качество системы?</text>
+    	<answers>
+			<answer nextQuestion="33">Понятность</answer>
+			<answer nextQuestion="33">Полнота</answer>
+			<answer nextQuestion="33">Сопровождаемость</answer>
+			<answer nextQuestion="33">Тестируемость</answer>
+			<answer nextQuestion="33">Удобство использования</answer>
+			<answer nextQuestion="33">Надёжность</answer>
+			<answer nextQuestion="33">Безопасность</answer>
+			<answer nextQuestion="33">Структурированность</answer>
+			<answer nextQuestion="33">Эффективность</answer>
+			<answer nextQuestion="33">Все вышеперечисленные критерии</answer>
+		</answers>
+	</question>
+	<question number="33">
+		<text>Проводилась ли экспертная оценка системы?</text>
+    	<answers>
+			<answer nextQuestion="34">Да</answer>
+			<answer nextQuestion="34">Нет</answer>
+		</answers>
+	</question>
+	<question number="34">
+		<text>Является ли система уникальной?</text>
+    	<answers>
+			<answer nextQuestion="35">Да</answer>
+			<answer nextQuestion="35">Нет</answer>
+		</answers>
+	</question>
+	<question number="35">
+		<text>Завершить оценку, выполнить проверку?</text>
+    	<answers>
+			<answer nextQuestion="36">Да</answer>
+			<answer nextQuestion="29">Нет</answer>
+		</answers>
+	</question>
+	<!--Конец четвертого черного ящика (Диалог 4)-->
+	<question number="36">
+		<text>Сохранить полученную систему?</text>
+    	<answers>
+			<answer nextQuestion="37">Да</answer>
+			<answer nextQuestion="37">Нет</answer>
+		</answers>
+	</question>
+	<question number="37">
+		<text>Завершить работу?</text>
+    	<answers>
+			<answer nextQuestion="38">Да</answer>
+			<answer nextQuestion="0">Нет</answer>
+		</answers>
+	</question>
+	<question number="38">
+		<text>The software system work has been finished.</text>
+    	<answers>
+		</answers>
+	</question>
+</root>
